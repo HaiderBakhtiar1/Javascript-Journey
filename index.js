@@ -75,15 +75,95 @@
     
 // }
 
-let sum1 = 0;
+// let sum1 = 0;
 
-for(let i =0; i <=50; i++){
+// for(let i =0; i <=50; i++){
    
-   sum1 = sum1 + i;
-   }
+//    sum1 = sum1 + i;
+//    }
 
-      console.log(sum1);
+//       console.log(sum1);
 
-      for(let i = 20; i >= 0; i--){
-     console.log(i);
-      }
+//       for(let i = 20; i >= 0; i--){
+//      console.log(i);
+//       }
+
+
+// function isPositive(number){
+//     if(number >= 1){
+//         console.log("this is a positive number");
+        
+//     }
+
+//     else if(number == 0){
+// console.log("The number is Zero");
+// }
+
+// else{
+//     console.log("this is a negative number");
+//     }
+// }
+
+// isPositive(8);
+// isPositive(0);
+// isPositive(-89);
+
+// function checkIsEven(number){
+//     if(number % 2 ==0){
+//         console.log("The number is Even");
+//     }
+
+//     else{
+//         console.log("The number is odd");
+        
+//     }
+// }
+
+// checkIsEven(6);
+// checkIsEven(9);
+
+// function canVote(age){
+//     if(age >=18){
+//         console.log("You are eligible to cast a vote");
+        
+//     }
+
+//     else{
+//         console.log("You are ineligible to cast a vote");
+        
+//     }
+// }
+
+// canVote(22);
+// canVote(18);
+// canVote(16);
+
+function comparingNumber(a,b){
+    if(a > b){
+        console.log("first number is greater");
+    }
+
+    else if(a == b){
+        console.log("both number are equal");
+        
+    }
+    else{
+        console.log("second number is greater");
+    }
+}
+
+ comparingNumber(10,27);
+ comparingNumber(89,77);
+ comparingNumber(80,80);
+
+// function checkTemperature(temp){
+// if(temp>=30){
+//     console.log("The weather is hot");  
+// }
+// else{
+//     console.log("The weather is not hot");
+// }
+// }
+
+// checkTemperature(45);
+// checkTemperature(25);
