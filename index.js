@@ -138,23 +138,23 @@
 // canVote(18);
 // canVote(16);
 
-function comparingNumber(a,b){
-    if(a > b){
-        console.log("first number is greater");
-    }
+// function comparingNumber(a,b){
+//     if(a > b){
+//         console.log("first number is greater");
+//     }
 
-    else if(a == b){
-        console.log("both number are equal");
+//     else if(a == b){
+//         console.log("both number are equal");
         
-    }
-    else{
-        console.log("second number is greater");
-    }
-}
+//     }
+//     else{
+//         console.log("second number is greater");
+//     }
+// }
 
- comparingNumber(10,27);
- comparingNumber(89,77);
- comparingNumber(80,80);
+//  comparingNumber(10,27);
+//  comparingNumber(89,77);
+//  comparingNumber(80,80);
 
 // function checkTemperature(temp){
 // if(temp>=30){
@@ -167,3 +167,27 @@ function comparingNumber(a,b){
 
 // checkTemperature(45);
 // checkTemperature(25);
+
+
+// let numbers = [10,20,30,40,50];
+
+// let addedResult = numbers.map(number => number + 5);
+
+// console.log(addedResult);
+
+// const prices = [100, 200, 300, 400];
+
+// let priceAfterTax = prices.map(price => price + (price * 0.10) );
+// console.log(priceAfterTax);
+
+// const products =[
+//     {name: "laptop", price: 1000},
+//     {name: "phone", price: 700,},
+//     {name: "keyboard", price:100},
+//     {name: "mouse", price: 70}
+// ];
+
+// let upperCased = products.map(product => product.name.toUpperCase());
+
+// console.log(upperCased);
+
