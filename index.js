@@ -36,13 +36,13 @@
 // console.log(average1);
 // console.log(average2);
 
-function discountedPrice(price, discount){
-     discount = (price * discount) / 100;
-    return price - discount ;
-}
+// function discountedPrice(price, discount){
+//      discount = (price * discount) / 100;
+//     return price - discount ;
+// }
 
-let discount1 = discountedPrice(1500,20);
-console.log(discount1);
+// let discount1 = discountedPrice(1500,20);
+// console.log(discount1);
 
 // function fullSentence(name,age,city){
 //     console.log("My name is "+ name, ". I am " + age +" Years Old. ", "I am from "+city);
@@ -50,3 +50,40 @@ console.log(discount1);
 // }
 
 // fullSentence("Haider Bakhtiar", 22, "Peshawar");
+
+
+// for(let i = 0; i <= 10; i+=2){
+//     console.log(i);
+    
+// }
+
+// for(let i = 0; i <= 20; i++){
+//     console.log(i);
+    
+// }
+
+// for(let i = 0; i <= 20; i++){
+//     if(i % 2 !==0){console.log(i);
+//     }
+// }
+
+// let num1 = 7;
+
+// for(let i = 0; i<=10; i++){
+//     let table7 = num1 * i;
+//     console.log(table7);
+    
+// }
+
+let sum1 = 0;
+
+for(let i =0; i <=50; i++){
+   
+   sum1 = sum1 + i;
+   }
+
+      console.log(sum1);
+
+      for(let i = 20; i >= 0; i--){
+     console.log(i);
+      }
