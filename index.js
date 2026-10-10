@@ -191,3 +191,166 @@
 
 // console.log(upperCased);
 
+// let numbers = [2,4,6,8];
+// let doubleNumbers = numbers.map(num => num *2);
+
+// console.log();
+
+// let numbers = [2,4,6,8];
+// let number10 = numbers.map(num => num + 10);
+
+// console.log(number10);
+
+// let numbers = [2,4,6,8];
+// let squareNumbers = numbers.map(num => num * num);
+
+// console.log(squareNumbers);
+
+// let names = ["haider"," arbaz"," saad", "shabaz"];
+// let capitalNames = names.map(name => name.toUpperCase());
+
+// console.log(capitalNames[0]);
+
+// let names = ["haider"," arbaz","saad", "shabaz"];
+// let helloNames = names.map(name => "Hello " + name.toUpperCase());
+
+// console.log(capitalNames[2]);
+
+// let names = ["haider","arbaz","saad", "shabaz"];
+// let lengthNames = names.map(name => name.length);
+
+// console.log(capitalNames);
+
+// let numbers = [3,5,6,10,14,15,61,25,62];
+// let greaterThan10 = numbers.filter(num=> num > 10);
+
+// console.log(greaterThan10);
+
+// let numbers = [3,5,6,10,14,15,61,25,62];
+// let evenNumbers = numbers.filter(num=> num % 2 === 0);
+
+// console.log(evenNumbers);
+
+// let numbers = [3,5,6,10,14,15,61,25,62];
+// let oddNumbers = numbers.filter(num=> num % 2 !== 0);
+
+// console.log(oddNumbers);
+
+
+// let names = ["haider","arbaz","saad", "shabaz", "ali"];
+
+// let bigNames = names.filter(name => name.length > 4);
+
+// console.log(bigNames);
+
+// let numbers = [3,5,6,10,18,14,15,61,25,62,35,22];
+
+// let youngAdults = numbers.filter(num=> num >= 18 && num <= 35);
+
+// console.log(youngAdults);
+
+
+// let numbers = [3,5,6,10,18,14,15,61,25,62,35,22];
+
+// let specificNumber = numbers.find(num => num > 15);
+// console.log(specificNumber);
+
+// let numbers = [3,5,6,10,18,14,15,61,25,62,35,22];
+
+// let evenNumber = numbers.find(num => num % 2 === 0);
+// console.log(evenNumber);
+
+// let names = ["haider","arbaz","saad", "shabaz", "ali"];
+
+//  let bigName= names.find(name => name.length > 4);
+//  console.log(bigName);
+
+// let numbers = [5, 12, 7, 19, 24, 31, 8];
+
+// let specificNumber = numbers.find(num => num > 10 && num < 25);
+
+// console.log(specificNumber);
+
+
+// let numbers = [25, 10, 40, 5, 30];
+
+// let smallestNumber = numbers.reduce((min, num)=>{
+// if(min > num){
+//     return num;
+// }
+
+//     return min;
+// })
+
+// console.log(smallestNumber);
+
+
+
+// function add (a,b){
+//     return a+b;
+// }
+
+// function sub (a,b){
+//     return a-b;
+// }
+
+// function product (a,b){
+//     return a*b;
+// }
+
+// function divide (a,b){
+//     return a/b;
+// }
+
+
+// let calculate = (a,b,callback) => {
+
+//     return callback(a,b);
+
+// }
+
+
+// console.log(calculate(10,3,add));
+// console.log(calculate(10,3,sub));
+// console.log(calculate(10,3,product));
+// console.log(calculate(10,3,divide));
+
+
+// function hello(name){
+//     return "Hello " + name;
+// }
+
+// function goodBye(name){
+//     return "Good Bye " + name;
+// }
+
+// let greet = (name,callback) => {
+//     return callback(name);
+// }
+
+// console.log(greet("Haider", hello));
+
+
+function getData(dataId, getNextData){
+    setTimeout(()=> {
+        console.log("Data " + dataId);
+        if (getNextData) {
+            getNextData();
+        }
+    }, 2000)
+}
+
+getData(1,()=>{
+    getData(2,()=>{
+    getData(3
+    )})}
+)
+
+
+console.log("hey Wassup Cutie");
+
+
+
+
+
+
