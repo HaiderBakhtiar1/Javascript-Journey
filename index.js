@@ -331,24 +331,175 @@
 // console.log(greet("Haider", hello));
 
 
-function getData(dataId, getNextData){
-    setTimeout(()=> {
+// function getData(dataId, getNextData){
+//     setTimeout(()=> {
+//         console.log("Data " + dataId);
+//         if (getNextData) {
+//             getNextData();
+//         }
+//     }, 2000)
+// }
+
+
+
+// getData(1,()=>{
+//     getData(2,()=>{
+//     getData(3
+//     )})}
+// )
+
+
+// console.log("hey Wassup Cutie");
+
+
+// let promise = new Promise ((resolve, reject) => {
+//     console.log("data " + 12);
+//     reject("error 404");
+//     resolve("success");
+//     })
+
+//     function getData(dataId, getNextData){
+//   return new Promise((resolve,reject) =>  setTimeout(()=> {
+//         console.log("Data " + dataId);
+//         resolve("success")
+//         if (getNextData) {
+//             getNextData();
+//         }
+//     }, 5000))
+// }
+
+// function asyncFunc(){
+//    return new Promise((resolve, reject)=>{
+//         setTimeout(()=>{
+//             console.log("data1");
+//             resolve("success");
+            
+//         },4000)
+//     })
+// }
+
+// function asyncFunc2(){
+//     return new Promise((resolve, reject)=>{
+//         setTimeout(()=>{
+//             console.log("data2");
+//             resolve("success");
+            
+//         },4000)
+//     })
+// }
+
+// console.log("fetching Initial Data");
+// asyncFunc().then((res)=>{
+
+//     console.log("fetching Secondary Data");
+//  asyncFunc2().then((res)=>{
+//     })
+// })
+
+
+// function getData(dataId){
+//    return new Promise((resolve,reject) => {
+//     setTimeout (()=> {
+//         console.log("Data " + dataId);
+//         resolve("Success")
+//     }, 2000);
+// })
+//    }
+
+// console.log("getting data1...");
+
+// getData(1).then((res)=>{
+//     console.log("getting data2...");
+//     return getData(2);
+// }).then((res)=>{
+//     console.log("getting data3...");
+//     return getData(3)
+// }).then((res)=>{
+//     console.log(res);
+    
+// })
+
+
+// async function getWeatherData() {
+//     setTimeout(()=>{console.log("Weather Data");
+
+//     },2000)
+//     }
+
+// async function weather(){
+//     await getWeatherData();
+//     await getWeatherData();
+//     await getWeatherData();
+// }
+
+// function api(){
+//     return new Promise((resolve, reject)=>{
+//         setTimeout(()=>{
+//             console.log("weather data");
+//             resolve("success")
+            
+//         },2000)
+//     })
+// }
+
+// async function getWeatherData() {
+
+//     await api();
+//     await api();
+//     let result = await api();
+// console.log(result);
+
+    
+// }
+
+// getWeatherData();
+
+
+function getData(dataId){
+   return new Promise((resolve,reject) => {
+    setTimeout (()=> {
         console.log("Data " + dataId);
-        if (getNextData) {
-            getNextData();
-        }
-    }, 2000)
-}
+        resolve("Success")
+    }, 2000);
+})
+   }
 
-getData(1,()=>{
-    getData(2,()=>{
-    getData(3
-    )})}
-)
+//    async function getAllData() {
+    
+//     console.log("getting result 1....");
+    
+//     await getData(1);
+//     console.log("getting result 2....");
+//     await getData(2);
+//     console.log("getting result 3....");
+//     await getData(3);
+//     console.log("getting result 4....");
+//     await getData(4);
+//     console.log("getting result 5....");
+//     let result = await getData(5);
+
+//     console.log(result);
+    
+//    }
 
 
-console.log("hey Wassup Cutie");
+    (async function () {
+    
+    console.log("getting result 1....");
+    
+    await getData(1);
+    console.log("getting result 2....");
+    await getData(2);
+    console.log("getting result 3....");
+    await getData(3);
+    console.log("getting result 4....");
+    await getData(4);
+    console.log("getting result 5....");
+    let result = await getData(5);
 
+    console.log(result);
+    
+   })()
 
 
 
